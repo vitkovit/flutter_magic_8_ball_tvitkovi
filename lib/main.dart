@@ -42,7 +42,7 @@ class _Magic8BallState extends State<Magic8Ball> {
             onPressed: () {
               randomNumber();
               print(
-                  'Right button $randomInt'); //triggering and for debug
+                  'random image: ball$randomInt'); //triggering and for debug
             },
             child: Image.asset('images/ball$randomInt.png'),
           ),
